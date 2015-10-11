@@ -3,6 +3,5 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="/Users/Guest/Desktop/Project1000000012/Robot.jar"/>
-	<classpathentry kind="lib" path="/Users/Guest/Desktop/gridworld.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
