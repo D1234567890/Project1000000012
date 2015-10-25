@@ -12,9 +12,8 @@ public class PhotoBook implements ActionListener {
 	JButton button0 = new JButton("Previous");
 	JPanel panel = new JPanel();
 	JButton button1 = new JButton("Random");
-	boolean q = false;
-	boolean qq = false;
-
+	int a = 2;
+	
 	public static void main(String[] args) {
 		PhotoBook p = new PhotoBook();
 	}
@@ -38,34 +37,7 @@ public class PhotoBook implements ActionListener {
 
 	public void actionPerformed(ActionEvent e) {
 		if (e.getSource() == button) {
-			if (q) {
-				ImagePanel i = new ImagePanel("UK_Creative_462809583.jpg", 500,
-						500);
-				frame.add(i);
-				i.setBounds(0, 0, 500, 500);
-				qq = true;
-			} else {
-				ImagePanel i = new ImagePanel(
-						"Winter-Tiger-Wild-Cat-Images-540x303.jpg", 500, 500);
-				frame.add(i);
-				i.setBounds(0, 0, 500, 500);
-				q = true;
-			}
-		}
-		if (e.getSource() == button0) {
-			if (q) {
-				ImagePanel i = new ImagePanel("TropicalBeach.jpg", 500, 500);
-				frame.add(i);
-				i.setBounds(0, 0, 500, 500);
-				q = false;
-			}
-			if (qq) {
-				ImagePanel i = new ImagePanel(
-						"Winter-Tiger-Wild-Cat-Images-540x303.jpg", 500, 500);
-				frame.add(i);
-				i.setBounds(0, 0, 500, 500);
-				qq = false;
-			}
+			
 		}
 	}
 }
